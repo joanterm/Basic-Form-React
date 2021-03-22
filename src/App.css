@@ -1,0 +1,46 @@
+body {
+  background-color: rgb(116, 136, 161);
+  text-align: center;
+  color: rgb(4, 28, 58);
+}
+
+form {
+  display: flex;
+  background-color: rgb(189, 208, 231);
+  flex-direction: column;
+  align-items: center;
+  border: 3px solid  rgb(4, 28, 58);
+  max-width: 25%;
+  margin: 0 auto;
+  margin-top: 2em;
+  padding: 4em;
+}
+
+input,
+button {
+  border-radius: 10px;
+  border: 0;
+  outline: none;
+}
+
+input {
+  width: 50%;
+  padding: 2em 4em;
+  margin-bottom: 2em;
+}
+
+button {
+  padding: 1em 2em;
+  cursor: pointer;
+  background-color: rgb(116, 136, 161);
+  color: white;
+}
+
+button:hover {
+  background-color: rgb(103, 116, 134);
+}
+
+.message {
+  color: rgb(252, 54, 54)
+}
+
